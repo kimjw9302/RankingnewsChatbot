@@ -18,10 +18,9 @@ from slack.web.classes.blocks import *
 from slack.web.classes.elements import *
 from slack.web.classes.interactions import MessageInteractiveEvent
 
-# SLACK_TOKEN = 'xoxb-689115425012-693172739702-pE4sboLggcIl0b2ZBIUoKvVk'
-# SLACK_SIGNING_SECRET = '92c406c764a91c9b14fb8d8a4af632b8'
-SLACK_TOKEN = 'xoxb-689115425012-689247336836-CkOHnlZceaugc0CpKwOk21xb'
-SLACK_SIGNING_SECRET = 'f7bca5b219e2b338afe9680b4f8438e8'
+
+SLACK_TOKEN = ''
+SLACK_SIGNING_SECRET = ''
 
 # MATCHING 섹션별 매칭 코드
 MATCHING = {"정치": 100, "경제": 101,"사회":102,"문화":103,"세계":104,"IT":105,
